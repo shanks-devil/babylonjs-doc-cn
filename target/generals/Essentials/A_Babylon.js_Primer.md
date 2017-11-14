@@ -305,7 +305,7 @@ var myLines = BABYLON.Mesh.CreateLines("itsName", [
 // 然后是如何对它着色...
 myLines.color = new BABYLON.Color3(0,1,0);
 ```
-线对象的创建优点怪怪的, 但是使它为绿色确很简单, 使用一个Color3值.&nbsp; 关于线网格你将会学到更多.... 在我们的基础元素教程里.&nbsp; 至于现在, 我只是想表示它(线对象)不像盒子那样应用标准材质并对其(材质)使用.diffuseColor属性来设置颜色, 也不想光线那样使用.diffuse属性来设置颜色.&nbsp; 相反,我们直接使用一个.color属性.&nbsp; 就是这样简单.
+线对象的创建有点怪怪的, 但是使它为绿色却很简单, 使用一个Color3值.&nbsp; 关于线网格你将会学到更多.... 在我们的基础元素教程里.&nbsp; 至于现在, 我只是想表示它(线对象)不像盒子那样应用标准材质并对其(材质)使用.diffuseColor属性来设置颜色, 也不想光线那样使用.diffuse属性来设置颜色.&nbsp; 相反,我们直接使用一个.color属性.&nbsp; 就是这样简单.
 
 
 ## 新的帮手 - 位置属性(.position), 旋转属性(.rotation), 和缩放属性(.scaling)&nbsp; ##
